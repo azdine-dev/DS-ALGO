@@ -1,3 +1,4 @@
+import com.azdine.dev.binarygap.BinaryGapSolution;
 import com.azdine.dev.peakfinding.PeakFindingProblem;
 
 /**
@@ -9,13 +10,11 @@ public class ProblemSolutions {
 
     public static void main(String[] args) {
 
-        // example of given array
-        int[] ex = {23,4434,435,88,6,7,34,344,85,459};
+        BinaryGapSolution binaryGapSolution = new BinaryGapSolution();
+        int solution = binaryGapSolution.solution(32);
 
-        PeakFindingProblem pf = new PeakFindingProblem();
-        int solution = pf.solution1(ex);
+        System.out.println("solution ==> +"+ solution);
 
-        System.out.println("solution to the problem ==> "+ solution );
 
     }
 
