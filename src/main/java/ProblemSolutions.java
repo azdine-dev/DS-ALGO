@@ -8,14 +8,13 @@ import com.azdine.dev.peakfinding.PeakFindingProblem;
  */
 public class ProblemSolutions {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
-
-        BinaryGapSolution binaryGapSolution = new BinaryGapSolution();
-        int solution = binaryGapSolution.solution(32);
-
-        System.out.println("solution ==> +"+ solution);
-
-
     }
+
+
 
 }
